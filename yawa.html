@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VJ Yawan Portfolio</title>
+  <link rel="stylesheet" href="vj.css" />
+  <style type="text/css">
+    Body {
+  Margin: 0;
+  Font-family: Arial, sans-serif;
+  Background: beige;
+  Color: #333;
+  Text-align: center;
+}
+
+Html {
+  Scroll-behavior: smooth;
+}
+
+Main {
+  Scroll-snap-type: y mandatory;
+  Overflow-y: scroll;
+  Height: 100vh;
+}
+
+Section {
+  Min-height: 100vh;
+  Scroll-snap-align: start;
+  Padding: 40px 20px;
+  Box-sizing: border-box;
+  Display: flex;
+  Flex-direction: column;
+  Justify-content: center;
+  Align-items: center;
+  Flex-wrap: wrap;
+  Overflow: hidden;
+}
+
+/* Typography */
+H1 {
+  Color: #a97450 ;
+  Font-size: 4em;
+  Margin-bottom: 20px;
+}
+
+H2 {
+  Margin-bottom: 20px;
+  Font-size: 2em;
+  
+}
+
+H3 {
+  Font-size: 1.5em;
+  Margin-top: 20px;
+}
+
+/* About Section */
+.about {
+  Display: flex;
+  Flex-direction: row;
+  Align-items: center;
+  Justify-content: center;
+  Flex-wrap: wrap;
+  Gap: 30px;
+  Text-align: left; /* This can remain as is */
+}
+
+.about-text {
+  Max-width: 600px;
+  Flex: 1;
+  Text-align: center; /* Center the text */
+}
+
+
+.about img {
+  Width: 100%;
+  Max-width: 250px;
+  Height: auto;
+  Border-radius: 10px;
+  Flex-shrink: 0;
+}
+
+/* Lists */
+Ul {
+  List-style: none;
+  Padding: 0;
+}
+
+Li {
+  Margin-bottom: 10px;
+  Font-size: 1.2em;
+}
+
+P {
+  Font-size: 1.2em;
+}
+
+/* Background */
+.gray {
+  Background-color: #f0f0f0;
+}
+
+
+Section + section {
+  Border-top: 4px solid white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about {
+    Flex-direction: column;
+    Text-align: center;
+  }
+
+  .about-text {
+    Text-align: center;
+  }
+}
+  </style>
+</head>
+<body>
+  <main>
+    <!-- Page 1 -->
+    <section>
+      <h1>VJ YAWAN</h1>
+      <h2>Portfolio</h2>
+    </section>
+
+    <!-- Page 2: About -->
+    <section class="about gray">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>Hi! I'm VJ Yawan—a visual storyteller, designer, and passionate creative. I believe in creating art that speaks not only visually but emotionally. I'm dedicated to improving my craft through design and content creation, and I constantly seek inspiration from people, nature, and culture. I designed this portfolio to give you a glimpse into who I am, what I do, and how I see the world. Through it, I hope to inspire, collaborate, and share my creative journey.</p>
+      </div>
+      <img src="C:\Users\ACER\Downloads\f386f1cf-935a-4a4e-b703-545fa55ebc8a.jpg" alt="VJ Yawan">
+    </section>
+
+    <!-- Page 3 -->
+    <section>
+      <h2>My Skills</h2>
+      <ul>
+        <li><strong>Graphic Design</strong> – Logos, posters, banners, and branding</li>
+        <li><strong>Photo Editing</strong> – Using Photoshop and Lightroom</li>
+        <li><strong>Web Layout</strong> – Basic HTML/CSS</li>
+        <li><strong>Video Editing</strong> – CapCut or Premiere</li>
+        <li><strong>Creative Writing</strong> – Captions, short bios</li>
+        <li><strong>Presentation Design</strong> – Clear, aesthetic slides</li>
+      </ul>
+      <h3>Tools I Use</h3>
+      <ul>
+        <li>Adobe Photoshop</li>
+        <li>Canva</li>
+        <li>CapCut</li>
+        <li>Figma</li>
+        <li>Microsoft Office (Word, PowerPoint, Excel)</li>
+      </ul>
+    </section>
+
+    <!-- Page 4 -->
+    <section class="gray">
+      <h2>My Hobbies</h2>
+      <ul>
+        <li>Sketching & Doodling</li>
+        <li>Photography</li>
+        <li>Watching Films/Anime</li>
+        <li>Nature Walks</li>
+        <li>Listening to Music</li>
+      </ul>
+    </section>
+
+    <!-- Page 5 -->
+    <section>
+      <h2>My Designs & Journey</h2>
+      <p>My creative journey started with notebooks filled with drawings and phone apps. From school design contests to layout for events, I built my skills slowly. Every step—mistakes and wins—brought me closer to my creative voice.</p>
+      <h3>Featured Designs:</h3>
+      <ul>
+        <li>Logo Concepts</li>
+        <li>Minimal Posters</li>
+        <li>Social Media Templates</li>
+        <li>Invites and Cards</li>
+      </ul>
+    </section>
+
+    <!-- Page 6 -->
+    <section class="gray">
+      <h2>Photos & Contact</h2>
+      <ul>
+        <li>Portraits</li>
+        <li>Work-in-Progress</li>
+        <li>Nature Shots</li>
+      </ul>
+      <h3>Contact Details</h3>
+      <p><strong>Name:</strong> VJ Yawan</p>
+      <p><strong>Phone:</strong> 09945613923</p>
+      <p><strong>Email:</strong> vjyawan5@gmail.com</p>
+      <p><strong>Social Media:</strong> Facebook | Instagram | Behance</p>
+    </section>
+  </main>
+</body>
+</html>
+
+
+
